@@ -8,6 +8,5 @@
     "south": "aae_dimensions:blocks/cyberore",
     "west": "aae_dimensions:blocks/cyberore",
     "particle": "aae_dimensions:blocks/cyberore"
-  },
-  "render_type": "solid"
+  }
 }

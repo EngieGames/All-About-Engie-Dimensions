@@ -8,8 +8,14 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.world.BiomeLoadingEvent;
 
+import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
+import net.minecraft.world.level.levelgen.GenerationStep;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.Holder;
 
 import net.mcreator.aaedimensions.world.features.ores.CyberOreFeature;
 import net.mcreator.aaedimensions.world.features.ores.BloodOreFeature;
@@ -17,11 +23,34 @@ import net.mcreator.aaedimensions.world.features.NothingFeature;
 import net.mcreator.aaedimensions.world.features.CyberHouseFeature;
 import net.mcreator.aaedimensions.AaeDimensionsMod;
 
+import java.util.function.Supplier;
+import java.util.Set;
+import java.util.List;
+import java.util.ArrayList;
+
 @Mod.EventBusSubscriber
 public class AaeDimensionsModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, AaeDimensionsMod.MODID);
-	public static final RegistryObject<Feature<?>> CYBER_ORE = REGISTRY.register("cyber_ore", CyberOreFeature::feature);
-	public static final RegistryObject<Feature<?>> BLOOD_ORE = REGISTRY.register("blood_ore", BloodOreFeature::feature);
-	public static final RegistryObject<Feature<?>> CYBER_HOUSE = REGISTRY.register("cyber_house", CyberHouseFeature::feature);
-	public static final RegistryObject<Feature<?>> NOTHING = REGISTRY.register("nothing", NothingFeature::feature);
+	private static final List<FeatureRegistration> FEATURE_REGISTRATIONS = new ArrayList<>();
+	public static final RegistryObject<Feature<?>> CYBER_ORE = register("cyber_ore", CyberOreFeature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, CyberOreFeature.GENERATE_BIOMES, CyberOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> BLOOD_ORE = register("blood_ore", BloodOreFeature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, BloodOreFeature.GENERATE_BIOMES, BloodOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> CYBER_HOUSE = register("cyber_house", CyberHouseFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, CyberHouseFeature.GENERATE_BIOMES, CyberHouseFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> NOTHING = register("nothing", NothingFeature::feature, new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, NothingFeature.GENERATE_BIOMES, NothingFeature::placedFeature));
+
+	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
+		FEATURE_REGISTRATIONS.add(featureRegistration);
+		return REGISTRY.register(registryname, feature);
+	}
+
+	@SubscribeEvent
+	public static void addFeaturesToBiomes(BiomeLoadingEvent event) {
+		for (FeatureRegistration registration : FEATURE_REGISTRATIONS) {
+			if (registration.biomes() == null || registration.biomes().contains(event.getName()))
+				event.getGeneration().getFeatures(registration.stage()).add(registration.placedFeature().get());
+		}
+	}
+
+	private static record FeatureRegistration(GenerationStep.Decoration stage, Set<ResourceLocation> biomes, Supplier<Holder<PlacedFeature>> placedFeature) {
+	}
 }

@@ -8,6 +8,5 @@
     "south": "aae_dimensions:blocks/bloodblockside",
     "west": "aae_dimensions:blocks/bloodblockside",
     "particle": "aae_dimensions:blocks/bloodblockbottom"
-  },
-  "render_type": "solid"
+  }
 }

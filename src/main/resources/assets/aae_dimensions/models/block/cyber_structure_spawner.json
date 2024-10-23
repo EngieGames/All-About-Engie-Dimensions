@@ -3,6 +3,5 @@
   "textures": {
     "all": "aae_dimensions:blocks/structurespawn",
     "particle": "aae_dimensions:blocks/structurespawn"
-  },
-  "render_type": "solid"
+  }
 }

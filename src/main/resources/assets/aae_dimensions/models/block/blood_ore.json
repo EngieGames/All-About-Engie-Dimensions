@@ -8,6 +8,5 @@
     "south": "aae_dimensions:blocks/bloodore",
     "west": "aae_dimensions:blocks/bloodore",
     "particle": "aae_dimensions:blocks/bloodore"
-  },
-  "render_type": "solid"
+  }
 }

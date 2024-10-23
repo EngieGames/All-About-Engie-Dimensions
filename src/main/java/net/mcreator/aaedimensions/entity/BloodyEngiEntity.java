@@ -4,8 +4,12 @@ package net.mcreator.aaedimensions.entity;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.world.BiomeLoadingEvent;
 
 import net.minecraft.world.level.levelgen.Heightmap;
+import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.Monster;
@@ -19,6 +23,7 @@ import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.MobType;
+import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
@@ -31,7 +36,18 @@ import net.minecraft.network.protocol.Packet;
 
 import net.mcreator.aaedimensions.init.AaeDimensionsModEntities;
 
+import java.util.Set;
+
+@Mod.EventBusSubscriber
 public class BloodyEngiEntity extends Monster {
+	private static final Set<ResourceLocation> SPAWN_BIOMES = Set.of(new ResourceLocation("soul_sand_valley"), new ResourceLocation("basalt_deltas"), new ResourceLocation("crimson_forest"), new ResourceLocation("nether_wastes"));
+
+	@SubscribeEvent
+	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
+		if (SPAWN_BIOMES.contains(event.getName()))
+			event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(AaeDimensionsModEntities.BLOODY_ENGI.get(), 10, 1, 4));
+	}
+
 	public BloodyEngiEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(AaeDimensionsModEntities.BLOODY_ENGI.get(), world);
 	}

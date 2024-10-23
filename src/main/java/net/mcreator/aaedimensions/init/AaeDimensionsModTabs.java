@@ -4,6 +4,9 @@
  */
 package net.mcreator.aaedimensions.init;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
@@ -18,7 +21,7 @@ public class AaeDimensionsModTabs {
 				return new ItemStack(Blocks.PURPLE_STAINED_GLASS);
 			}
 
-			@Override
+			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
 				return false;
 			}

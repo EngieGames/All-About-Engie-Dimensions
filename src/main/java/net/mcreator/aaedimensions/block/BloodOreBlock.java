@@ -1,7 +1,6 @@
 
 package net.mcreator.aaedimensions.block;
 
-import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.common.util.ForgeSoundType;
 
 import net.minecraft.world.level.storage.loot.LootContext;
@@ -13,6 +12,7 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
@@ -22,9 +22,8 @@ import java.util.Collections;
 public class BloodOreBlock extends Block {
 	public BloodOreBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.nether_ore.break")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.nether_ore.step")),
-						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.nether_ore.place")), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.nether_ore.hit")),
-						() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.nether_ore.fall"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("block.nether_ore.break")), () -> new SoundEvent(new ResourceLocation("block.nether_ore.step")),
+						() -> new SoundEvent(new ResourceLocation("block.nether_ore.place")), () -> new SoundEvent(new ResourceLocation("block.nether_ore.hit")), () -> new SoundEvent(new ResourceLocation("block.nether_ore.fall"))))
 				.strength(3f).requiresCorrectToolForDrops());
 	}
 

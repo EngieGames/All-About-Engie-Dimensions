@@ -8,6 +8,5 @@
     "south": "aae_dimensions:blocks/cyberblockside",
     "west": "aae_dimensions:blocks/cyberblockside",
     "particle": "aae_dimensions:blocks/cyberblockbottom"
-  },
-  "render_type": "solid"
+  }
 }
