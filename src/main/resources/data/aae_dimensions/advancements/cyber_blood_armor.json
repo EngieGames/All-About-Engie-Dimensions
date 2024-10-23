@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "aae_dimensions:cyberblood_bar"
+    },
+    "title": {
+      "translate": "advancements.cyber_blood_armor.title"
+    },
+    "description": {
+      "translate": "advancements.cyber_blood_armor.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cyber_blood_armor": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 30
+  },
+  "parent": "aae_dimensions:dimensions"
+}

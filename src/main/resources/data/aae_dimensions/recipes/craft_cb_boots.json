@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aae_dimensions:cyberblood_bar"
+    },
+    "2": {
+      "item": "aae_dimensions:cyberblood_bar"
+    },
+    "3": {
+      "item": "aae_dimensions:cyberblood_bar"
+    },
+    "5": {
+      "item": "aae_dimensions:cyberblood_bar"
+    }
+  },
+  "result": {
+    "item": "aae_dimensions:cyberblood_boots",
+    "count": 1
+  }
+}

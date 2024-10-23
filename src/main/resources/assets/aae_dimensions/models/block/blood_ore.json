@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aae_dimensions:blocks/bloodore",
+    "up": "aae_dimensions:blocks/bloodore",
+    "north": "aae_dimensions:blocks/bloodore",
+    "east": "aae_dimensions:blocks/bloodore",
+    "south": "aae_dimensions:blocks/bloodore",
+    "west": "aae_dimensions:blocks/bloodore",
+    "particle": "aae_dimensions:blocks/bloodore"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "aae_dimensions:cyber_ore"
+  },
+  "result": "aae_dimensions:cyber_bar"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aae_dimensions:blood_bar"
+    },
+    "1": {
+      "item": "aae_dimensions:blood_bar"
+    },
+    "2": {
+      "item": "aae_dimensions:blood_bar"
+    },
+    "3": {
+      "item": "aae_dimensions:blood_bar"
+    },
+    "4": {
+      "item": "aae_dimensions:blood_bar"
+    },
+    "5": {
+      "item": "aae_dimensions:blood_bar"
+    },
+    "6": {
+      "item": "aae_dimensions:blood_bar"
+    },
+    "7": {
+      "item": "aae_dimensions:blood_bar"
+    },
+    "8": {
+      "item": "aae_dimensions:blood_bar"
+    }
+  },
+  "result": {
+    "item": "aae_dimensions:blood_block",
+    "count": 1
+  }
+}

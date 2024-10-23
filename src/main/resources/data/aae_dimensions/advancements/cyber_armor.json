@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "aae_dimensions:cyber_bar"
+    },
+    "title": {
+      "translate": "advancements.cyber_armor.title"
+    },
+    "description": {
+      "translate": "advancements.cyber_armor.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cyber_armor": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 15
+  },
+  "parent": "aae_dimensions:dimensions"
+}

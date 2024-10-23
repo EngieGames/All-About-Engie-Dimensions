@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "aae_dimensions:blood_bar"
+    },
+    "title": {
+      "translate": "advancements.blood_armor.title"
+    },
+    "description": {
+      "translate": "advancements.blood_armor.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "blood_armor": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 15
+  },
+  "parent": "aae_dimensions:dimensions"
+}

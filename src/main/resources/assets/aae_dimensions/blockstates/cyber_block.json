@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "aae_dimensions:block/cyber_block"
+    }
+  }
+}

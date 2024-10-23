@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BloodBar"
+      },
+      {
+        "value": "CUSTOM:BloodBar"
+      },
+      {
+        "value": "CUSTOM:BloodBar"
+      },
+      {
+        "value": "CUSTOM:BloodBar"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BloodBar"
+      },
+      {
+        "value": "CUSTOM:BloodBar"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BloodBar"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Blood.legs"
+    },
+    "name": "craft_b_leggings",
+    "namespace": "mod"
+  }
+}

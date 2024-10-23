@@ -1,0 +1,33 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "texture": "bba",
+    "customModelName": "Normal",
+    "name": "Blood Battle Axe",
+    "specialInfo": [
+      "."
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:AAEDimensions"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 12.5,
+    "enchantability": 2,
+    "damageVsEntity": 500.0,
+    "usageCount": 700,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:BloodBar"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

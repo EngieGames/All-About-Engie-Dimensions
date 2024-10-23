@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "aae_dimensions:cyber_bar"
+    },
+    "1": {
+      "item": "aae_dimensions:cyber_bar"
+    },
+    "2": {
+      "item": "aae_dimensions:cyber_bar"
+    },
+    "3": {
+      "item": "aae_dimensions:cyber_bar"
+    },
+    "5": {
+      "item": "aae_dimensions:cyber_bar"
+    },
+    "6": {
+      "item": "aae_dimensions:cyber_bar"
+    },
+    "8": {
+      "item": "aae_dimensions:cyber_bar"
+    }
+  },
+  "result": {
+    "item": "aae_dimensions:cyber_armor_leggings",
+    "count": 1
+  }
+}

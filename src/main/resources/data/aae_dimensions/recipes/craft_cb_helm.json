@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aae_dimensions:cyberblood_bar"
+    },
+    "1": {
+      "item": "aae_dimensions:cyberblood_bar"
+    },
+    "2": {
+      "item": "aae_dimensions:cyberblood_bar"
+    },
+    "3": {
+      "item": "aae_dimensions:cyberblood_bar"
+    },
+    "5": {
+      "item": "aae_dimensions:cyberblood_bar"
+    }
+  },
+  "result": {
+    "item": "aae_dimensions:cyberblood_helmet",
+    "count": 1
+  }
+}

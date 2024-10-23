@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aae_dimensions:blocks/cyberblockbottom",
+    "up": "aae_dimensions:blocks/cyberblocktop",
+    "north": "aae_dimensions:blocks/cyberblockside",
+    "east": "aae_dimensions:blocks/cyberblockside",
+    "south": "aae_dimensions:blocks/cyberblockside",
+    "west": "aae_dimensions:blocks/cyberblockside",
+    "particle": "aae_dimensions:blocks/cyberblockbottom"
+  },
+  "render_type": "solid"
+}

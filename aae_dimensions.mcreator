@@ -1,0 +1,852 @@
+{
+  "mod_elements": [
+    {
+      "name": "Protogen",
+      "type": "livingentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "protogen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/forge/biome_modifier/protogen_biome_modifier.json",
+          "src/main/java/net/mcreator/aaedimensions/client/renderer/ProtogenRenderer.java",
+          "src/main/resources/assets/aae_dimensions/models/item/protogen_spawn_egg.json",
+          "src/main/java/net/mcreator/aaedimensions/entity/ProtogenEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "CyberOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyber_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_dimensions/models/block/cyber_ore.json",
+          "src/main/java/net/mcreator/aaedimensions/block/CyberOreBlock.java",
+          "src/main/resources/data/aae_dimensions/forge/biome_modifier/cyber_ore_biome_modifier.json",
+          "src/main/resources/assets/aae_dimensions/blockstates/cyber_ore.json",
+          "src/main/resources/assets/aae_dimensions/models/item/cyber_ore.json",
+          "src/main/java/net/mcreator/aaedimensions/world/features/ores/CyberOreFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "CyberBar",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyber_bar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_dimensions/models/item/cyber_bar.json",
+          "src/main/java/net/mcreator/aaedimensions/item/CyberBarItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AAEDimensions",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aae_dimensions",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SmeltC",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelt_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/recipes/smelt_c.json"
+        ]
+      }
+    },
+    {
+      "name": "BlastC",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blast_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/recipes/blast_c.json"
+        ]
+      }
+    },
+    {
+      "name": "CyberKatana",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyber_katana",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaedimensions/item/CyberKatanaItem.java",
+          "src/main/resources/assets/aae_dimensions/models/item/cyber_katana.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftC",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/recipes/craft_c.json"
+        ]
+      }
+    },
+    {
+      "name": "BloodyEngi",
+      "type": "livingentity",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloody_engi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaedimensions/client/renderer/BloodyEngiRenderer.java",
+          "src/main/java/net/mcreator/aaedimensions/entity/BloodyEngiEntity.java",
+          "src/main/resources/assets/aae_dimensions/models/item/bloody_engi_spawn_egg.json",
+          "src/main/resources/data/aae_dimensions/forge/biome_modifier/bloody_engi_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "BloodOre",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_dimensions/blockstates/blood_ore.json",
+          "src/main/java/net/mcreator/aaedimensions/world/features/ores/BloodOreFeature.java",
+          "src/main/resources/data/aae_dimensions/forge/biome_modifier/blood_ore_biome_modifier.json",
+          "src/main/resources/assets/aae_dimensions/models/block/blood_ore.json",
+          "src/main/java/net/mcreator/aaedimensions/block/BloodOreBlock.java",
+          "src/main/resources/assets/aae_dimensions/models/item/blood_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Cyber",
+      "type": "armor",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyber_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_dimensions/models/item/cyber_armor_helmet.json",
+          "src/main/resources/assets/aae_dimensions/models/item/cyber_armor_leggings.json",
+          "src/main/resources/assets/aae_dimensions/models/item/cyber_armor_chestplate.json",
+          "src/main/java/net/mcreator/aaedimensions/item/CyberItem.java",
+          "src/main/resources/assets/aae_dimensions/models/item/cyber_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "BloodBar",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_bar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_dimensions/models/item/blood_bar.json",
+          "src/main/java/net/mcreator/aaedimensions/item/BloodBarItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Blood",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaedimensions/item/BloodItem.java",
+          "src/main/resources/assets/aae_dimensions/models/item/blood_boots.json",
+          "src/main/resources/assets/aae_dimensions/models/item/blood_leggings.json",
+          "src/main/resources/assets/aae_dimensions/models/item/blood_helmet.json",
+          "src/main/resources/assets/aae_dimensions/models/item/blood_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "SmeltB",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelt_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/recipes/smelt_b.json"
+        ]
+      }
+    },
+    {
+      "name": "BlastB",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blast_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/recipes/blast_b.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftB",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/recipes/craft_b.json"
+        ]
+      }
+    },
+    {
+      "name": "CyberbloodBar",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyberblood_bar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaedimensions/item/CyberbloodBarItem.java",
+          "src/main/resources/assets/aae_dimensions/models/item/cyberblood_bar.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftCB",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_cb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/recipes/craft_cb.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftCHelm",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_c_helm",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/recipes/craft_c_helm.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftCChestplate",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_c_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/recipes/craft_c_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftCLeggings",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_c_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/recipes/craft_c_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftCBoots",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_c_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/recipes/craft_c_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBHelm",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_b_helm",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/recipes/craft_b_helm.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBChestplate",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_b_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/recipes/craft_b_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBLeggings",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_b_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/recipes/craft_b_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBBoots",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_b_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/recipes/craft_b_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "CyberbloodKatana",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyberblood_katana",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaedimensions/item/CyberbloodKatanaItem.java",
+          "src/main/resources/assets/aae_dimensions/models/item/cyberblood_katana.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftCBKatana",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_cb_katana",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/recipes/craft_cb_katana.json"
+        ]
+      }
+    },
+    {
+      "name": "Cyberblood",
+      "type": "armor",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyberblood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_dimensions/models/item/cyberblood_chestplate.json",
+          "src/main/java/net/mcreator/aaedimensions/item/CyberbloodItem.java",
+          "src/main/resources/assets/aae_dimensions/models/item/cyberblood_boots.json",
+          "src/main/resources/assets/aae_dimensions/models/item/cyberblood_helmet.json",
+          "src/main/resources/assets/aae_dimensions/models/item/cyberblood_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftCBHelm",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_cb_helm",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/recipes/craft_cb_helm.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftCBChestplate",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_cb_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/recipes/craft_cb_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftCBLeggings",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_cb_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/recipes/craft_cb_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftCBBoots",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_cb_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/recipes/craft_cb_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "CyberbloodBattleAxe",
+      "type": "tool",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyberblood_battle_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_dimensions/models/item/cyberblood_battle_axe.json",
+          "src/main/java/net/mcreator/aaedimensions/item/CyberbloodBattleAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CraftCBA",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_cba",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/recipes/craft_cba.json"
+        ]
+      }
+    },
+    {
+      "name": "CyberHouse",
+      "type": "structure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyber_house",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaedimensions/world/features/CyberHouseFeature.java",
+          "src/main/resources/data/aae_dimensions/forge/biome_modifier/cyber_house_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "CyberStructureSpawnerUpdateTick",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyber_structure_spawner_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaedimensions/procedures/CyberStructureSpawnerUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CyberStructureSpawner",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyber_structure_spawner",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_dimensions/models/item/cyber_structure_spawner.json",
+          "src/main/resources/assets/aae_dimensions/blockstates/cyber_structure_spawner.json",
+          "src/main/resources/assets/aae_dimensions/models/block/cyber_structure_spawner.json",
+          "src/main/java/net/mcreator/aaedimensions/block/CyberStructureSpawnerBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "NothingOnStructureInstanceGenerated",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nothing_on_structure_instance_generated",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaedimensions/procedures/NothingOnStructureInstanceGeneratedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nothing",
+      "type": "structure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nothing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaedimensions/world/features/NothingFeature.java",
+          "src/main/resources/data/aae_dimensions/forge/biome_modifier/nothing_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Dimensions",
+      "type": "achievement",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimensions",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/advancements/dimensions.json"
+        ]
+      }
+    },
+    {
+      "name": "WelcomeDimensions",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "welcome_dimensions",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaedimensions/procedures/WelcomeDimensionsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CyberArmor",
+      "type": "achievement",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyber_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/advancements/cyber_armor.json"
+        ]
+      }
+    },
+    {
+      "name": "BloodBattleAxe",
+      "type": "tool",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_battle_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaedimensions/item/BloodBattleAxeItem.java",
+          "src/main/resources/assets/aae_dimensions/models/item/blood_battle_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "BloodArmor",
+      "type": "achievement",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/advancements/blood_armor.json"
+        ]
+      }
+    },
+    {
+      "name": "CyberBloodArmor",
+      "type": "achievement",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyber_blood_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/advancements/cyber_blood_armor.json"
+        ]
+      }
+    },
+    {
+      "name": "Armor",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaedimensions/procedures/ArmorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BloodBlock",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aae_dimensions/models/item/blood_block.json",
+          "src/main/java/net/mcreator/aaedimensions/block/BloodBlockBlock.java",
+          "src/main/resources/assets/aae_dimensions/models/block/blood_block.json",
+          "src/main/resources/assets/aae_dimensions/blockstates/blood_block.json"
+        ]
+      }
+    },
+    {
+      "name": "BlBRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bl_b_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/recipes/bl_b_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CyberBlock",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyber_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aaedimensions/block/CyberBlockBlock.java",
+          "src/main/resources/assets/aae_dimensions/models/block/cyber_block.json",
+          "src/main/resources/assets/aae_dimensions/blockstates/cyber_block.json",
+          "src/main/resources/assets/aae_dimensions/models/item/cyber_block.json"
+        ]
+      }
+    },
+    {
+      "name": "CyBRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cy_b_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aae_dimensions/recipes/cy_b_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.aae_dimension.blood_bar": "Blood Bar",
+      "block.aae_dimensions.cyber_structure_spawner": "Cyber Structure Spawner",
+      "item.aae_dimension.cyber_armor_helmet": "Cyber Helmet",
+      "item.aae_dimension.cyber_armor_chestplate": "Cyber Chestplate",
+      "item.aae_dimensions.blood_boots": "Blood Boots",
+      "block.aae_dimensions.blood_block": "Blood Block",
+      "entity.aae_dimensions.protogen": "Protogen",
+      "item.aae_dimensions.cyberblood_chestplate": "Cyberblood Chestplate",
+      "item.aae_dimensions.cyber_armor_chestplate": "Cyber Chestplate",
+      "block.aae_dimension.cyber_ore": "Cyber Ore",
+      "item.aae_dimensions.blood_battle_axe": "Blood Battle Axe",
+      "item.aae_dimension.cyberblood_battle_axe": "Cyberblood Battle Axe",
+      "item.aae_dimension.blood_chestplate": "Blood Chestplate",
+      "item.aae_dimensions.blood_bar": "Blood Bar",
+      "block.aae_dimensions.cyber_ore": "Cyber Ore",
+      "item.aae_dimensions.cyber_armor_boots": "Cyber Boots",
+      "item.aae_dimension.cyber_armor_leggings": "Cyber Leggings",
+      "item.aae_dimension.cyber_armor_boots": "Cyber Boots",
+      "item.aae_dimension.cyberblood_bar": "Cyberblood Bar",
+      "item.aae_dimensions.blood_chestplate": "Blood Chestplate",
+      "item.aae_dimension.cyberblood_boots": "Cyberblood Boots",
+      "item.aae_dimensions.cyberblood_boots": "Cyberblood Boots",
+      "item.aae_dimension.cyberblood_leggings": "Cyberblood Leggings",
+      "block.aae_dimension.cyber_structure_spawner": "Cyber Structure Spawner",
+      "item.aae_dimensions.cyberblood_leggings": "Cyberblood Leggings",
+      "advancements.dimensions.title": "Dimensions",
+      "item.aae_dimension.cyberblood_katana": "Cyberblood Katana",
+      "item.aae_dimensions.cyber_katana": "Cyber Katana",
+      "item.aae_dimension.blood_leggings": "Blood Leggings",
+      "item.aae_dimensions.bloody_engi_spawn_egg": "Bloody Engi Spawn Egg",
+      "item.aae_dimensions.cyberblood_katana": "Cyberblood Katana",
+      "item.aae_dimension.cyberblood_chestplate": "Cyberblood Chestplate",
+      "item.aae_dimension.blood_battle_axe": "Blood Battle Axe",
+      "itemGroup.tabaae_dimensions": "AAE Dimensions",
+      "advancements.cyber_blood_armor.title": "CyberBlood Armor",
+      "advancements.cyber_blood_armor.descr": "Ok yeah, it\u0027s ggs.",
+      "item.aae_dimensions.cyber_armor_leggings": "Cyber Leggings",
+      "advancements.blood_armor.title": "Blood Armor",
+      "entity.aae_dimension.protogen": "Protogen",
+      "item.aae_dimension.blood_helmet": "Blood Helmet",
+      "advancements.blood_armor.descr": "This feels weird to have..",
+      "item.aae_dimension.bloody_engi_spawn_egg": "Bloody Engi Spawn Egg",
+      "block.aae_dimensions.cyber_block": "Cyber Block",
+      "advancements.cyber_armor.title": "Cyber Armor",
+      "item.aae_dimension.protogen_spawn_egg": "Protogen Spawn Egg",
+      "advancements.cyber_armor.descr": "Armor with the added benifet of more protection.",
+      "item.aae_dimension.blood_boots": "Blood Boots",
+      "entity.aae_dimensions.bloody_engi": "Bloody Engi",
+      "block.aae_dimensions.blood_ore": "Blood Ore",
+      "advancements.dimensions.descr": "Welcome to thy dimensions.",
+      "item.aae_dimensions.blood_helmet": "Blood Helmet",
+      "item.aae_dimensions.cyber_armor_helmet": "Cyber Helmet",
+      "item.aae_dimensions.blood_leggings": "Blood Leggings",
+      "item.aae_dimensions.protogen_spawn_egg": "Protogen Spawn Egg",
+      "block.aae_dimension.blood_ore": "Blood Ore",
+      "item.aae_dimensions.cyberblood_battle_axe": "Cyberblood Battle Axe",
+      "item.aae_dimensions.cyber_bar": "Cyber Bar",
+      "item.aae_dimensions.cyberblood_helmet": "Cyberblood Helmet",
+      "item.aae_dimension.cyberblood_helmet": "Cyberblood Helmet",
+      "item.aae_dimensions.cyberblood_bar": "Cyberblood Bar",
+      "entity.aae_dimension.bloody_engi": "Bloody Engi",
+      "item.aae_dimension.cyber_bar": "Cyber Bar",
+      "item.aae_dimension.cyber_katana": "Cyber Katana"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "aae_dimensions",
+    "modName": "AAE Dimensions",
+    "version": "10.23.24",
+    "description": "Made with MCreator.",
+    "author": "EngieGames",
+    "websiteURL": "https://www.twitch.tv/engiegames",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "aae_dimensions_logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Find the book.",
+    "modElementsPackage": "net.mcreator.aaedimensions",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

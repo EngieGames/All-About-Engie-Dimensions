@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 3.5,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "aae_dimensions:blood_ore"
+  },
+  "result": "aae_dimensions:blood_bar"
+}

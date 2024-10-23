@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "aae_dimensions:cyberblood_bar"
+    },
+    "1": {
+      "item": "aae_dimensions:cyberblood_bar"
+    },
+    "2": {
+      "item": "aae_dimensions:cyberblood_bar"
+    },
+    "3": {
+      "item": "aae_dimensions:cyberblood_bar"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "aae_dimensions:cyberblood_bar"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "aae_dimensions:cyberblood_battle_axe",
+    "count": 1
+  }
+}

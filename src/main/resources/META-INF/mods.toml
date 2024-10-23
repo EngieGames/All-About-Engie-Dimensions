@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT License"
+
+[[mods]]
+modId="aae_dimensions"
+version="10.23.24"
+displayName="AAE Dimensions"
+credits="Find the book."
+displayURL="https://www.twitch.tv/engiegames"
+logoFile="logo.png"
+authors="EngieGames"
+description="Made with MCreator."
+
+[[dependencies.aae_dimensions]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

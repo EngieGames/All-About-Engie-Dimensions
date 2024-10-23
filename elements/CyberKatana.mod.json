@@ -1,0 +1,31 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "texture": "ckatana",
+    "customModelName": "Normal",
+    "name": "Cyber Katana",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AAEDimensions"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 25.0,
+    "enchantability": 2,
+    "damageVsEntity": 250.0,
+    "usageCount": 350,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:CyberBar"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 3.5,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "aae_dimensions:blood_ore"
+  },
+  "result": "aae_dimensions:blood_bar"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "aae_dimensions:cyber_ore"
+  },
+  "result": "aae_dimensions:cyber_bar"
+}

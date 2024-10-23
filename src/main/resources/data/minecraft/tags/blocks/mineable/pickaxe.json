@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "aae_dimensions:cyber_ore",
+    "aae_dimensions:blood_ore",
+    "aae_dimensions:blood_block",
+    "aae_dimensions:cyber_block"
+  ]
+}

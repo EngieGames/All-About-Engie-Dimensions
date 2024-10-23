@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "aae_dimensions:cyber_bar"
+    },
+    "1": {
+      "item": "aae_dimensions:cyber_bar"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "aae_dimensions:cyber_katana",
+    "count": 1
+  }
+}

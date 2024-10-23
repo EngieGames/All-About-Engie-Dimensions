@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aae_dimensions:cyber_bar"
+    },
+    "2": {
+      "item": "aae_dimensions:cyber_bar"
+    },
+    "3": {
+      "item": "aae_dimensions:cyber_bar"
+    },
+    "4": {
+      "item": "aae_dimensions:cyber_bar"
+    },
+    "5": {
+      "item": "aae_dimensions:cyber_bar"
+    },
+    "6": {
+      "item": "aae_dimensions:cyber_bar"
+    },
+    "7": {
+      "item": "aae_dimensions:cyber_bar"
+    },
+    "8": {
+      "item": "aae_dimensions:cyber_bar"
+    }
+  },
+  "result": {
+    "item": "aae_dimensions:cyber_armor_chestplate",
+    "count": 1
+  }
+}

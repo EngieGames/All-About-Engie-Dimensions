@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CyberbloodBar"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CyberbloodBar"
+      },
+      {
+        "value": "CUSTOM:CyberbloodBar"
+      },
+      {
+        "value": "CUSTOM:CyberbloodBar"
+      },
+      {
+        "value": "CUSTOM:CyberbloodBar"
+      },
+      {
+        "value": "CUSTOM:CyberbloodBar"
+      },
+      {
+        "value": "CUSTOM:CyberbloodBar"
+      },
+      {
+        "value": "CUSTOM:CyberbloodBar"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Cyberblood.body"
+    },
+    "name": "craft_cb_chestplate",
+    "namespace": "mod"
+  }
+}

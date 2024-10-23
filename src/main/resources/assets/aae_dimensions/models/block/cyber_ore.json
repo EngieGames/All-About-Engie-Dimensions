@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aae_dimensions:blocks/cyberore",
+    "up": "aae_dimensions:blocks/cyberore",
+    "north": "aae_dimensions:blocks/cyberore",
+    "east": "aae_dimensions:blocks/cyberore",
+    "south": "aae_dimensions:blocks/cyberore",
+    "west": "aae_dimensions:blocks/cyberore",
+    "particle": "aae_dimensions:blocks/cyberore"
+  },
+  "render_type": "solid"
+}
